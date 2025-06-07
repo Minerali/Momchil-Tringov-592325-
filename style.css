@@ -1,0 +1,347 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #222222;
+    box-sizing: border-box;
+}
+header nav{
+    margin: 20px,20px;
+    padding: 10px;
+    background-image: url('Background.png');
+    background-blend-mode: overlay;
+}
+header{
+    background-image: url('Background.png');
+    background-blend-mode: overlay;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    font-size: 23px;
+    background-image: url('Background.png');
+    background-blend-mode: overlay;
+}
+nav img{
+    background-image: url('Background.png');
+    background-blend-mode: overlay;
+}
+ul{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    background-image: url('Background.png');
+    background-blend-mode: overlay;
+}
+nav ul li{
+    list-style-type: none;
+    background-image: url('Background.png');
+    background-blend-mode: overlay;
+}
+nav a{
+    text-decoration: none;
+    font-family: 'Oswald';
+    color: #FFFFFF;
+    background-image: url('Background.png');
+    background-blend-mode: overlay;
+}
+.sponsors p{
+    font-family: 'Oswald';
+    color: #FFFFFF;
+    font-weight: 100;
+    background-color: #F43C1E;
+}
+footer{
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #F43C1E;
+}
+footer img{
+    background-color: #F43C1E   ;
+}
+.morespon img{
+    background-color: #F43C1E;
+    margin-right: 60px;
+}
+.morespon{
+    background-color: #F43C1E;
+}
+.dolu p{
+    font-family: 'Oswald';
+    color: #FFFFFF;
+    font-weight: 100;
+    background-color: #F43C1E;
+}
+.dolu{
+    background-color: #F43C1E;
+    justify-content: space-between;
+    display: flex;
+    padding: 10px;
+}
+.links{
+    background-color: #F43C1E;
+    gap: 15px;
+}
+.links img{
+    background-color: #F43C1E;
+    
+}
+.links a{
+    text-decoration: none;
+    gap: 20px;
+}
+.head{
+    margin-left: 290px;
+}
+.purvi, .chetvurti{
+    font-family: "Great Vibes", cursive;
+    font-weight: 100;
+    font-style: normal;
+    color: #E5DAC8;
+    font-size: 50px
+}
+.vtori, .treti{
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #E5DAC8;
+    font-size: 40px
+}
+.ed{
+    display: flex;
+    gap: 10px;
+}
+.dv{
+    display: flex;
+    gap: 10px;
+    margin-left: 190px;
+}
+#edno{
+    z-index: 1;
+    position: absolute;
+    object-position: 100px 30px; 
+}
+.box{
+    border: 1px solid #545454;
+    width: 696px;
+}
+.box img{
+    margin-left: 40px;
+}
+.zag{
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+    font-family: 'Oswald';
+    color: #FFFFFF;
+    font-weight: lighter;
+}
+.golqmo{
+    display: inline-flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.purvi, .vtori, .treti, .chetvurti{
+    font-size: 36px;
+    background-image: url('Background.png');
+    background-blend-mode: overlay;
+}
+.ed{
+    padding: 10px;
+    margin-top: 280px;
+    background-image: url('Background.png');
+    background-blend-mode: overlay;
+}
+.box2{
+    font-family: 'Oswald';
+    color: #FFFFFF;
+    font-weight: lighter;
+    background-image: url('Background.png');
+    background-blend-mode: overlay;
+}
+.box2{
+    border: 1px solid #545454;
+    width: 696px;
+    background-image: url('Background.png');
+    background-blend-mode: overlay;
+}
+#milev{
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #FFFFFF;
+    font-size: 40px;
+    width: 800px;
+    padding: 30px;
+    background-image: url('Background.png');
+    background-blend-mode: overlay;
+}
+article{
+    border: 2px solid black;
+    width: 1200px;
+    height: 700px;
+    display: flex;
+    background-color: black;
+    margin-left: 160px;
+    margin-top: 120px;
+}
+.lupi{
+    color: #E1E1E1;
+    width: 500px;
+    display: block;
+    background-color: black ;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.lupi p{
+    background-color: black;
+}
+.lupi h1{
+    color: #FFFFFF;
+    background-color: black;
+    margin-bottom: 40px;
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+
+}
+.snimki{
+    display: inline-block;
+    background-color: black;
+    margin-left: 90px;
+    margin-top: 80px;
+
+}
+.snimki #logo{
+    z-index: 100;
+    position: 20px 30px;
+    background: transparent;
+    margin-left: -290px;
+    margin-bottom: -130px;
+}
+.lupi #toi{
+    background-color: black;
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 14px;
+}
+.lupi #e{
+   font-family: 'Oswald';
+    color: #FFFFFF;
+    font-weight: lighter; 
+}
+hr{
+    width: 1000px;
+    background-color: #FFFFFF;
+    height: 10px;
+    color: #FFFFFF;
+    margin-left: 20px;
+    margin-top: 40px;
+
+}
+#kupi{
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 60px;
+    color: #FFFFFF;
+}
+.malko{
+    display: flex;
+    gap: 20px;
+}
+button {
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: #FFFFFF;
+  border-radius: 20px;
+  font-family: 'Oswald';
+  font-weight: lighter; 
+}
+.vzemi{
+    border:1px  solid #545454;
+    width: 600px;
+    margin-left: 120px;
+    margin-top: 30px;
+}
+.pap{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+#pop{
+    font-family: 'Oswald';
+    font-weight: lighter; 
+    color: #FFFFFF;
+    width: 132px;
+
+}
+#gel{
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 50px;
+    color: #FFFFFF;
+}
+
+.bab{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 300px;
+}
+.bab h1{
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+.zem{
+    display: flex;
+}
+.vzem{
+    border:1px  solid #545454;
+    width: 600px;
+    margin-top: 30px;
+}
+.purchase .ed, .dv{
+    background: transparent;
+}
+.hamburg{
+    opacity: 0;
+    background: transparent;
+}
+@media (max-width:768px){
+    .hamburg.active{
+    opacity: 1;
+    }
+    nav li{
+        opacity: 0;
+        width: 100px;
+        height: 80px;
+        display: block;
+    }
+    #navactive{
+        opacity: 1;
+        width: 100px;
+        height: 80px;
+        display: block;
+    }
+    .pic{
+        opacity: 1;
+        display: flex;
+        justify-content: left;
+    }
+    *{
+        width: 768px;
+    }
+}
